@@ -1,0 +1,15 @@
+{
+    "websites": 
+    [
+        "https://example.com",
+        "https://another-example.com"
+    ],
+    "mail_settings":
+    {
+        "smtp_server": "smtp.example.com",
+        "port": 587,
+        "use_tls": true,
+        "username": "",
+        "password": ""
+    }
+}

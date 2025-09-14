@@ -1,0 +1,19 @@
+{
+    "name": "jonasriemer/webchecker",
+    "description": "A tool for checking website states",
+    "autoload": {
+        "psr-4": {
+            "Webchecker\\": "src/",
+            "Webchecker\\Classes\\": "src/classes/",
+            "Webchecker\\Handlers\\": "src/handlers/",
+            "Webchecker\\Utilities\\": "src/utilities/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonas Riemer",
+            "email": "kontakt@webdesign-riemer.de"
+        }
+    ],
+    "require": {}
+}

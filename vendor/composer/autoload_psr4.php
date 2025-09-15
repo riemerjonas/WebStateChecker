@@ -6,5 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Jonasriemer\\Webchecker\\' => array($baseDir . '/src'),
+    'Webchecker\\Utilities\\' => array($baseDir . '/src/utilities'),
+    'Webchecker\\Handlers\\' => array($baseDir . '/src/handlers'),
+    'Webchecker\\Classes\\' => array($baseDir . '/src/classes'),
+    'Webchecker\\' => array($baseDir . '/src'),
 );

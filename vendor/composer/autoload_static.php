@@ -7,14 +7,29 @@ namespace Composer\Autoload;
 class ComposerStaticInit0fc26f62b0964dd0b675d35ee6c906d7
 {
     public static $prefixLengthsPsr4 = array (
-        'J' => 
+        'W' => 
         array (
-            'Jonasriemer\\Webchecker\\' => 23,
+            'Webchecker\\Utilities\\' => 21,
+            'Webchecker\\Handlers\\' => 20,
+            'Webchecker\\Classes\\' => 19,
+            'Webchecker\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Jonasriemer\\Webchecker\\' => 
+        'Webchecker\\Utilities\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/utilities',
+        ),
+        'Webchecker\\Handlers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/handlers',
+        ),
+        'Webchecker\\Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/classes',
+        ),
+        'Webchecker\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

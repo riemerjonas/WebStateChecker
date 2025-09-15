@@ -11,5 +11,6 @@
         "use_tls": true,
         "username": "",
         "password": ""
-    }
+    },
+    "output_type": "json"
 }

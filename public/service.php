@@ -1,7 +1,8 @@
 <?php
 
 use Webchecker\Classes\Test;
-use Webchecker\Handlers\TestResultPrinter;
+use Webchecker\Handlers\NotifyHandler;
+use Webchecker\Handlers\OutputHandler;
 use Webchecker\Utilities\ConfigLoader;
 
 include_once __DIR__ . '/../vendor/autoload.php';
@@ -11,11 +12,10 @@ $websites = $configLoader->get("websites", []);
 
 $testResults = [];
 foreach ($websites as $website) {
-    $test = new Test($website);
+    $test = new Test($website['url']);
     $test->runTest();
     $testResults[] = $test->getResult();
+    NotifyHandler::sendNotification($website['url'], $test->getResult());
 }
 
-TestResultPrinter::print($testResults);
-
-?>
+OutputHandler::print($testResults);

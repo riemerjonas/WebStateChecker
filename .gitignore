@@ -1,1 +1,3 @@
 /config/config.json
+/templates/client_info_error.html
+/templates/client_info_success.html

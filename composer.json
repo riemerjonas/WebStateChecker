@@ -15,5 +15,7 @@
             "email": "kontakt@webdesign-riemer.de"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
 }

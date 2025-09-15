@@ -5,7 +5,7 @@ namespace Webchecker\Handlers;
 use Webchecker\Classes\TestResult;
 use Webchecker\Utilities\ConfigLoader;
 
-class TestResultPrinter
+class OutputHandler
 {
 
     public static function print(array $results)

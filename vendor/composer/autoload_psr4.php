@@ -10,4 +10,5 @@ return array(
     'Webchecker\\Handlers\\' => array($baseDir . '/src/handlers'),
     'Webchecker\\Classes\\' => array($baseDir . '/src/classes'),
     'Webchecker\\' => array($baseDir . '/src'),
+    'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
 );

@@ -14,6 +14,10 @@ class ComposerStaticInit0fc26f62b0964dd0b675d35ee6c906d7
             'Webchecker\\Classes\\' => 19,
             'Webchecker\\' => 11,
         ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -32,6 +36,10 @@ class ComposerStaticInit0fc26f62b0964dd0b675d35ee6c906d7
         'Webchecker\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
     );
 
